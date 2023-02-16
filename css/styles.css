@@ -1,0 +1,52 @@
+* {
+    box-sizing:border-box;
+}
+.background {
+    position: absolute;
+    margin: 0px auto;
+    width: 100%;
+    z-index: -1;
+}
+
+.top-panel {
+    display: flex;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
+
+.top-panel h1 {
+    align-self: center;
+    font-size: 45px;
+    padding-left: 2rem;
+    letter-spacing: .5rem;
+    word-spacing: 1rem;
+}
+
+.top-panel a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.nav-bar ul {
+    display: flex;
+    gap: 4rem;
+}
+
+.nav-bar li {
+    font-size: 20px;
+}
+
+.carousel-inner {
+    margin: 0px auto;
+    width: 75%;
+    z-index: -1;
+}
