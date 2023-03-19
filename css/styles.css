@@ -1,32 +1,86 @@
 * {
     box-sizing:border-box;
 }
-.background {
-    position: absolute;
-    margin: 0px auto;
-    width: 100%;
-    z-index: -1;
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 30px;
+}
+h3 {
+    font-size: 25px
+}
+h4 {
+    font-size: 20px;
+}
+h5 {
+    font-size: 15px;
+}
+h6 {
+    font-size: 10px
+}
+i {
+    font-style: italic;
 }
 
-.top-panel {
+/*Home*/
+body {
+    background-size: 100% auto;
+}
+#home {
+    background-image: url(../bape/bape1.png);
+}
+
+#history {
+    background-image: url(../bape/bape2.png);
+}
+
+#timeline {
+    background-image: url(../bape/bape3.png);
+}
+
+#collab {
+    background-image: url(../bape/bape4.png);
+}
+
+#pop {
+    background-image: url(../bape/bape5.png);
+}
+
+.top-panel-home {
     display: flex;
     padding: 1rem;
-    position: sticky;
     top: 0;
+    background-color: rgb(221, 156, 183);
+    align-items: center;
+    border: 2px solid white;
 }
 
-.top-panel h1 {
-    align-self: center;
-    font-size: 45px;
+.top-panel-home a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+.top-panel-home a:hover {
+    background-color: #d63384;
+    border-radius: .5rem;
+}
+.top-panel-home h1 a {
+    display: flex;
     padding-left: 2rem;
     letter-spacing: .5rem;
     word-spacing: 1rem;
+    align-content: center;
+    font-size: 3rem;
+}
+.top-panel-home h1 a:hover {
+    background-color: rgb(221, 156, 183);
+    border-radius: 0;
+    text-decoration: underline;
 }
 
-.top-panel a {
-    text-decoration: none;
-    color: white;
-}
 
 .nav-bar {
     display: flex;
@@ -38,7 +92,7 @@
 
 .nav-bar ul {
     display: flex;
-    gap: 4rem;
+    gap: 2rem;
 }
 
 .nav-bar li {
@@ -46,7 +100,155 @@
 }
 
 .carousel-inner {
+    border: 2px solid white;
+    border-radius: .5rem;
+}
+#carouselExampleAutoplaying {
     margin: 0px auto;
     width: 75%;
-    z-index: -1;
+    margin-top: 1rem;
+}
+
+.grid-home {
+    display: grid;
+    gap: 2rem;
+    width: 75%;
+    grid-template-columns: repeat(11, 1fr);
+    align-items: start;
+    margin: 0px auto;
+}
+.grid-item-home {
+    margin-top: 1rem;
+    grid-column: 1/6;
+    border: 2px solid white;
+    border-radius: .5rem;
+    background-color: rgb(221, 156, 183);
+    padding: 1rem;
+}
+.grid-item-home:nth-child(2) {
+    margin-top: 1rem;
+    grid-column: 6/12;
+    border: 2px solid white;
+    border-radius: .5rem;
+    background-color: rgb(221, 156, 183);
+    padding: 1rem;
+}
+.grid-item-home:nth-child(2) h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+.grid-item-home:nth-child(2) p {
+    color: white;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.grid-item-home:nth-child(2) img{
+    position: relative;
+    width: 50%;
+    height: auto;
+    left: 25%;
+    right: 25%;
+    border-radius: .5rem;
+    top: 1rem;
+    margin-bottom: 1rem;
+}
+.grid-item-home img {
+    width: 100%;
+    height: auto;
+}
+
+.grid-item-home:nth-child(3) {
+    grid-column: 1/6;
+    margin-top: 0;
+}
+
+.grid-item-home:nth-child(3) h3 {
+    text-align: center;
+    color: white;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.app-card {
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: .5rem;
+    background-color: #d63384;
+}
+.app-card h4 {
+    text-align: center;
+    color: white;
+}
+.app-card img {
+    width: 50%;
+    height: auto;
+    border-radius: 1.5rem;
+}
+.app-card a {
+    color: white;
+    text-decoration: none;
+}
+.app-card a:hover {
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    border: 2px solid white;
+    padding: 1rem;
+    margin-top: 1rem;
+    background-color: rgb(221, 156, 183);
+}
+footer ul li {
+    display: inline-block;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+footer h3 {
+    color: white;
+    font-size: 1.25rem;
+}
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+/*History*/
+
+.top-panel-history {
+    display: flex;
+    padding: 1rem;
+    top: 0;
+    background-color: rgb(221, 156, 183);
+    align-items: center;
+    border: 2px solid white;
+}
+.top-panel-history a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
+
+.top-panel-history a:hover {
+    background-color: #d63384;
+    border-radius: .5rem;
+}
+.top-panel-history h1 a {
+    display: flex;
+    padding-left: 2rem;
+    letter-spacing: .5rem;
+    word-spacing: 1rem;
+    align-content: center;
+    font-size: 3rem;
+}
+.top-panel-history h1 a:hover {
+    background-color: rgb(221, 156, 183);
+    border-radius: 0;
+    text-decoration: underline;
 }
