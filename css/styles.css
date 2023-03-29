@@ -276,6 +276,10 @@ footer a:hover {
     color: white;
     padding-bottom: 1rem;
 }
+.grid-item-history img {
+    width: 100%;
+    height: auto;
+}
 .footer-history {
     text-align: center;
     border: 2px solid white;
