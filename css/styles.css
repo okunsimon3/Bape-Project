@@ -276,6 +276,22 @@ footer a:hover {
     color: white;
     padding-bottom: 1rem;
 }
+.container-history {
+    position: relative;
+    color: white;
+}
+.container-history h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5rem;
+    font-weight: bold;
+}
+.container-history p {
+    position: absolute;
+    top: 80%;
+}
 .grid-item-history img {
     width: 100%;
     height: auto;
@@ -338,6 +354,46 @@ footer a:hover {
     background-color: #FFB3D9;
     border-radius: 0;
     text-decoration: underline;
+}
+.grid-item-timeline {
+    margin-top: 1rem;
+    grid-column: 1/13;
+    border: 2px solid white;
+    border-radius: .5rem;
+    background-color: #FFB3D9;
+    padding: 1rem;
+}
+.grid-item-timeline h2 {
+    text-align: center;
+    color: white;
+}
+.checkpoint {
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.checkpoint div {
+    border: 2px solid white;
+    border-radius: .5rem;
+    padding: 1rem;
+
+}
+.checkpoint p {
+    line-height: 27px;
+    color: white;
+}
+.checkpoint:nth-child(odd) {
+    border-left: 3px solid white;
+    padding-right: 50%;
+    padding-left: 1rem;
+    transform: translateX(50%);
+}
+.checkpoint:nth-child(even) {
+    border-right: 3px solid white;
+    padding-left: 50%;
+    padding-right: 1rem;
+    transform: translateX(-50%);
 }
 .footer-timeline {
     text-align: center;
