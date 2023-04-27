@@ -9,18 +9,34 @@
     <meta name="description" content="A fan website of the Japanese clothing brand Bape (A Bathing Ape)">
     <link rel="stylesheet" href="../Bape-Project/css/reset.css" type="text/css">
     <link rel="stylesheet" href="../Bape-Project/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../Bape-Project/mobile.css" media="(max-width: 820px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <script>
+      function openNav() {
+          document.querySelector('nav').classList.add('open')
+      }
+
+      function closeNav() {
+          document.querySelector('nav').classList.remove('open')
+      }
+  </script>
 </head>
 <body id="collab">
     <header class="top-panel-collab">
         <h1><a href="index.html">I &hearts; Bape</a></h1>
-        <div class="nav-bar">
+        <nav>
+            <img id="close-button" src="../Bape-Project/close.png" alt="close button" onclick="closeNav()"/>
             <ul>
                 <li><a href="history.html">History</a></li>
                 <li><a href="timeline.html">Timeline</a></li>
                 <li><a href="collaborations.html">Collaborations</a></li>
                 <li><a href="pop-culture.html">Pop Culture</a></li>
             </ul>
-        </div>
+        </nav>
+        <img id="open-button" src="../Bape-Project/hamburger-icon.png" alt="open button" onclick="openNav()"/>
     </header>
     <main class="container">
         <div class="grid">
@@ -29,47 +45,47 @@
                 <div class="container">
                     <div class="collab-card"><!-- flex container -->
                         <h3>Pepsi</h3> <!-- flex item-->
-                        <p>Since 1992, Akai Hana has been serving sushi and other healthy Japanese cuisine. With a loyal following, Akai Hana has grown to three times it's original size. With items like udon, tempura, sushi, and ramen on the menu, Akai Hana is the place to for those craving some auehtentic Japanese Cuisine.</p>
+                        <p>Bape did multiple collaborations with the soft drink company, Pepsi, starting with their first collaboration in 2001. Nigo approached Pepsi to work on a collaborative collection of bottles sold exclusively in Japan. The famous Bape camo print was plastered on the aluminium bottles and sold in select locations in Japan. If you went back in time and purchased a bottle for retail price, which was less than a dollar, you would have purchased the cheapest Bape item ever made. Nowadays, these bottles can go for over a hundred dollars. Nigo would collab with Pepsi again in 2012 except with his other brand, AAPE.</p>
                         <img src="../Bape-Project/pepsi.jpg"><!-- right -->
                     </div> 
                     <div class="collab-card">
                         <h3>Hello Kitty</h3>
-                        <p>An authentic wood-burning Neapolitan Pizzeria in the heart of downtown Wilmette. At Napolita, they serve Neapolitan pizza made fresh and naturally fermented in accordance with the strict standards of the authentic Vera Pizza Napoletana. Enjoy pasta imported from Napoli, house-made specialty salads, and delicious Italian-style desserts. Indulge in their extensive wine list updated regularly with wines from every Italian region.</p>
+                        <p>Bape had multiple collaborations with the Japanese entertainment company, Sanrio, which created Hello Kitty. Sanrio designs, licenses, and produces products focusing on the kawaii ("cute") segment of Japanese pop-cultue, so it is no suprise Nigo decided to use Baby Milo as the collaboration item. The designs featured both characters holding hands, wearing each others clothes, and playing. Baby milo would appear alongside other Sanrio characters like My Melody, a popular cartoon character in Japan. Nigo would collaborate with Sanrio again in 2021 releasing a Bapesta shoe featuring both the Baby Milo and Hello Kitty characters.</p>
                         <img src="../Bape-Project/hellokitty.jpg">
                     </div>
                     <div class="collab-card">
                         <h3>Adidas</h3>
-                        <p>Located in the heart of downtown Wilmette, this industrial-chic restaurant offers a carefully selected menu of fresh oysters, wood-grilled fish, and signature cocktails. From 3:00PM to 5:00PM, Monday through Friday, Pescadero offers a happy hour with $5.00 draft beer and $1.00 off oysters. Enjoy their martitime themed interior and comfortable, family-friendly atmosphere.</p>
+                        <p>Once Nigo launched Bapesta in 2002, his sneakers gained popularity all over the world. But the brand was yet to recieve an official sneaker collaboration. That was until a year later when Adidas and Bape teamed up to create the "Super Ape Star". The famous Bape camo was featured on the classic Adidas Superstar shoe, which had gained its own popularity through the Run-DMC song, "My Adidas". Nigo would collaborate with Adidas multiple times with the famous Bape camo plastered on track jackets and pants, windbreakers, and more shoes. Nigo and Pharrell Williams would also partner with Adidas on their joint brand, Human Made.</p>
                         <img src="../Bape-Project/adidas.jpg" alt="interior of Pescadero">
                     </div>
                     <div class="collab-card">
-                        <h3>DC Comics</h3>
-                        <p>The Ridgeview Grill is a family-owned neighborhood restaurant serving fresh, healthy, and homemade comfort classics. Since 1961, they've been a landmark for offering quality dishes at a great value. Located in the heart of the North Shore, customers have come to rely on the Ridgeview Grill for breakfast, lunch, and dinner. For food that's got all the comfort of home and the details of an upscale restaurant, the Ridgeview Grill is a great choice.</p>
-                        <img src="../Bape-Project/dc.jpg" alt="interior of Ridgeview Grill">
-                    </div>
-                    <div class="collab-card">
                         <h3>Coca-Cola</h3>
-                        <p>Chuck Wagon occupies a tiny space in downtown Wilmette. However, it turns out a high volume of burgers, gyros, dogs and fries, especially at lunchtime. Chuck Wagon redesigns American classics with one simple ingredient: slices of succulent gyro, straight from the spit. With only about 12 seats, Chuck Wagon has a quite unique and refreshing atmosphere. They sure do love their customers as nearly every inch of wall space is filled with their photographs that the owner takes himself.</p>
+                        <p>The Summer of 2020 saw a collaboration between Coca-Cola and Bape featuring black, white, and red colorways and Bape head logos plastered on Coca-Cola bottles. This collection featured more clothing than the Pepsi collab, including hoodies, t-shirts, trucker hats, headbands, swim trunks, and even kimonos. The pair of Bapestas in this collection saw the Coca-Cola logo incorporated on the side along with a bottle top chain attached with the Bape logo imprented. Baby Milo also makes an appearance on a bike riding across the Coca-Cola logo.</p>
                         <img src="../Bape-Project/cocacola.jpg" alt="interior of Chuck Wagon">
                     </div>
                     <div class="collab-card">
                         <h3>SpongeBob SquarePants</h3>
-                        <p>Depot Nuevo is a Mexican restaurant and tequila bar with a bright and lively atmosphere. The menu at Depot Nuevo is distinctly modern Mexican. There are several varieties of tacos, enchiladas, burrito and fajitas along with the traditional appetizers and dinner salads. The specialty of the house, though, is the paella, with saffron rice and shrimp, bay scallops, mussels, chicken and chorizo. All the margaritas are created from scratch with a house made sour mix and fresh-squeezed fruit for the traditional lime, strawberry, and raspberry flavors.</p>
+                        <p>Bape collaborated with the famous Nikelodeon cartoon series Spongebob Squarepants in 2008. This collection featured a pair of bright yellow Bapestas with Spongebob's face on the heel. The collection aslo featured a plush doll of Spongebob with Baby Milo laying on his head, as well as t-shirts with Bob Milo instead of Baby Milo. The collection expanded in 2014 with popular items like the classic full zip hoodie making an appearance. To promote this collection, large costumes of the Baby Milo character and Spongebob were produced and employees wore them in front of retail stores.</p>
                         <img src="../Bape-Project/spongebob.jpg" alt="interior of Depot Nuevo">
                     </div>
                     <div class="collab-card">
                         <h3>Marvel</h3>
-                        <p>Since 1975, Irving's for Red Hot Lovers has established itself as a local legend in the Chicagoland area. Here you can find the classic Chicago-styled hot dog, also known as a red hot. An authentic Chicago red hot is topped with yellow mustard, chopped white onions, bright green sweet pickle relish, a dill pickle spear, tomato slices or wedges, pickled sport peppers, and a dash of celery salt. If you're up for the challenge, head over to Irving's for Red Hot Lovers.</p>
+                        <p>The Marvel and BAPE universe have met numerous times for collaborations. First was in 2005 with a collection of t-shirts and sneakers featuring classic Marvel characters like Thor, Iron Man, Silver Surfer, and the X-Men. Next, they would release a small Spiderman capsule collection and then one involving The Avengers. One of the best part of this collaboration was the packaging for the Bapesta shoes. Each came boxed in the same way all your favorite action figures came in.</p>
                         <img src="../Bape-Project/marvel.jpg" alt="interior of Depot Nuevo">
                     </div>
                     <div class="collab-card">
+                        <h3>DC Comics</h3>
+                        <p>Bape would collaborate with DC comics in 2007 following the collab they did with Marvel. Many harcore fans of DC comics were frustrated that they only collabed with Marvel. To solve this dispute, Bape collaborated with DC to feature iconic DC characters like Batman, The Flash, Superman, and Wonder Woman. Many Bapesta shoes were made using the classic colors of these DC characters and the Batman hoodie even had ears just like the crime fighting hero himself.</p>
+                        <img src="../Bape-Project/dc.jpg" alt="interior of Ridgeview Grill">
+                    </div>
+                    <div class="collab-card">
                         <h3>Star Wars</h3>
-                        <p>Depot Nuevo is a Mexican restaurant and tequila bar with a bright and lively atmosphere. The menu at Depot Nuevo is distinctly modern Mexican. There are several varieties of tacos, enchiladas, burrito and fajitas along with the traditional appetizers and dinner salads. The specialty of the house, though, is the paella, with saffron rice and shrimp, bay scallops, mussels, chicken and chorizo. All the margaritas are created from scratch with a house made sour mix and fresh-squeezed fruit for the traditional lime, strawberry, and raspberry flavors.</p>
+                        <p>In 2011, Bape would collaborate with Lucasfilm, the legendary television company founded by George Lucas, to promote the upcoming release of Star Wars on Blu-ray disc. The t-shirts feature Baby Milo hanging out with Star Wars characters such as R2-D2, Chewbacca, the Tusken Raiders, Stormtroopers, and even the Sith Lord himself, Darth Vader. Nigo collaborated again with Star Wars when <i>Star Wars: The Rise of Skywalker</i> was released in 2019. This featured Baby Milo alongside characters like Kylo Ren, and BB-8. </p>
                         <img src="../Bape-Project/starwarsbape.jpg" alt="interior of Depot Nuevo">
                     </div>
                     <div class="collab-card">
                         <h3>Carhartt</h3>
-                        <p>Depot Nuevo is a Mexican restaurant and tequila bar with a bright and lively atmosphere. The menu at Depot Nuevo is distinctly modern Mexican. There are several varieties of tacos, enchiladas, burrito and fajitas along with the traditional appetizers and dinner salads. The specialty of the house, though, is the paella, with saffron rice and shrimp, bay scallops, mussels, chicken and chorizo. All the margaritas are created from scratch with a house made sour mix and fresh-squeezed fruit for the traditional lime, strawberry, and raspberry flavors.</p>
+                        <p>In 2006, Bape and Carhartt collaborated to create some warm jackets for the winter time. These classic Carhartt hooded jackets came in three Bape camo colorways including black, red and purple. The collection also featured some hats with the Bape camo along with the Carhartt logo on the front. This collaboration was interesting for the fact that a workwear brand that focused on warm and durable clothing incorporated designs from a high-end lifestyle brand. This collection will definitley keep you warm while also keeping you stylish. </p>
                         <img src="../Bape-Project/carhartt.jpg" alt="interior of Depot Nuevo">
                     </div>
                 </div>

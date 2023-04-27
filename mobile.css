@@ -1,0 +1,97 @@
+.top-panel-home nav {
+    /* closed */
+    background: #802241;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    height: 100%;
+    width: 75%;
+    padding: 1rem;
+    text-align: right;
+    z-index: 3;
+}
+.top-panel-home nav ul li a {
+    border-radius: 0.5rem;
+    background: #E096B7;
+}
+
+.top-panel-history nav {
+    /* closed */
+    background: #c82336;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    height: 100%;
+    width: 75%;
+    padding: 1rem;
+    text-align: right;
+    z-index: 3;
+}
+.top-panel-history nav ul li a {
+    border-radius: 0.5rem;
+    background: #DFA4AD;
+}
+
+.top-panel-timeline nav {
+    /* closed */
+    background: #AAFFFF;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    height: 100%;
+    width: 75%;
+    padding: 1rem;
+    text-align: right;
+    z-index: 3;
+}
+.top-panel-timeline nav ul li a {
+    border-radius: 0.5rem;
+    background: #FFB3D9;
+}
+
+.top-panel-collab nav {
+    /* closed */
+    background: #1B356B;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    height: 100%;
+    width: 75%;
+    padding: 1rem;
+    text-align: right;
+    z-index: 3;
+}
+.top-panel-collab nav ul li a {
+    border-radius: 0.5rem;
+    background: #8EBADD;
+}
+
+.top-panel-pop nav {
+    /* closed */
+    background: black;
+    position: fixed;
+    top: 0;
+    right: -75%;
+    height: 100%;
+    width: 75%;
+    padding: 1rem;
+    text-align: right;
+    z-index: 3;
+}
+
+
+nav.open {
+    right: 0;
+}
+
+nav ul li,
+nav ul li a {
+    display: flex;
+    margin: 0;
+    text-align: left;
+
+}
+
+nav ul li {
+    margin-bottom: 1rem;
+}

@@ -9,18 +9,34 @@
     <meta name="description" content="A fan website of the Japanese clothing brand Bape (A Bathing Ape)">
     <link rel="stylesheet" href="../Bape-Project/css/reset.css" type="text/css">
     <link rel="stylesheet" href="../Bape-Project/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../Bape-Project/mobile.css" media="(max-width: 820px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <script>
+      function openNav() {
+          document.querySelector('nav').classList.add('open')
+      }
+
+      function closeNav() {
+          document.querySelector('nav').classList.remove('open')
+      }
+  </script>
 </head>
 <body id="history">
     <header class="top-panel-history">
         <h1><a href="index.html">I &hearts; Bape</a></h1>
-        <div class="nav-bar">
+        <nav>
+            <img id="close-button" src="../Bape-Project/close.png" alt="close button" onclick="closeNav()"/>
             <ul>
                 <li><a href="history.html">History</a></li>
                 <li><a href="timeline.html">Timeline</a></li>
                 <li><a href="collaborations.html">Collaborations</a></li>
                 <li><a href="pop-culture.html">Pop Culture</a></li>
             </ul>
-        </div>
+        </nav>
+        <img id="open-button" src="../Bape-Project/hamburger-icon.png" alt="open button" onclick="openNav()"/>
     </header>
     <main class="container">
         <div class="grid">
@@ -28,25 +44,46 @@
                 <h2>History</h2>
                 <div class="container-history">
                     <h3>Early Life</h3>
-                    <img src="../Bape-Project/maebashi.jpg" alt="the mountainside city of Maebashi">
-                    <p>Nigo was born in 1970 on December 23rd. He came from a working-class family, with both parents working lots of hours in order to provide for him and his siblings. This left him to entertain himself with toys and movies. Star Wars was becoming popular worldwide at the time, and Nigo became obsessed with American entertainment. He started collecting toys and figurines at the age of six starting with a plush toy of Donald Duck. This would later turn into one of the biggest collections of pop culture in the world. In his teenage years, Nigo began delving into music and fashion, specifically the genre of Hip-Hop. At 16 years old, he bought a set of turntables with the intention of becoming a DJ. Some of his main influences were New York rapper, LL Cool J, as well as the group Run-DMC, known for their bucket hats, big chains, and baggy clothes. Through his love of Hip-Hop, Nigo became more and more interested in fashion. He began reading fashion magazines like the influential Japanese men’s fashion magazine Popeye, which played a big role in his life later on. However, once he discovered fashion designer, Hiroshi Fujiwara, who had a column in the popular pop-culture magazine, Takarajima, his outlook on fashion changed dramatically. Upon graduating from high school, Nigo moved to Tokyo and enrolled in the Bunka Fashion College.</p>
+                    <div class="img-gradient">
+                        <img src="../Bape-Project/maebashi.jpg" alt="the mountainside city of Maebashi">
+                    </div>
                 </div>
-                <h3>Tokyo</h3>
-                <img src="../Bape-Project/tokyopic.jpg" alt="a bustling street in Tokyo with vibrant neon lights">
+                <p>Nigo was born in 1970 on December 23rd. He came from a working-class family, with both parents working lots of hours in order to provide for him and his siblings. This left him to entertain himself with toys and movies. Star Wars was becoming popular worldwide at the time, and Nigo became obsessed with American entertainment. He started collecting toys and figurines at the age of six starting with a plush toy of Donald Duck. This would later turn into one of the biggest collections of pop culture in the world. In his teenage years, Nigo began delving into music and fashion, specifically the genre of Hip-Hop. At 16 years old, he bought a set of turntables with the intention of becoming a DJ. Some of his main influences were New York rapper, LL Cool J, as well as the group Run-DMC, known for their bucket hats, big chains, and baggy clothes. Through his love of Hip-Hop, Nigo became more and more interested in fashion. He began reading fashion magazines like the influential Japanese men’s fashion magazine Popeye, which played a big role in his life later on. However, once he discovered fashion designer, Hiroshi Fujiwara, who had a column in the popular pop-culture magazine, Takarajima, his outlook on fashion changed dramatically. Upon graduating from high school, Nigo moved to Tokyo and enrolled in the Bunka Fashion College.</p>
+                <div class="container-history">
+                    <h3>Tokyo</h3>
+                    <div class="img-gradient">
+                        <img src="../Bape-Project/tokyopic.jpg" alt="a bustling street in Tokyo with vibrant neon lights">
+                    </div>
+                </div>
                 <p>Although Nigo grew up in the mountainside city of Maebashi in the Gunma Prefecture of Japan, he adjusted to Tokyo quite easily. The bustling nightlife of Tokyo was the perfect environment for Nigo to explore music and fashion. He began DJing in local nightclubs and started making a name for himself both in his music and his unique outfits. However, just like many college students, he spent a little too much time partying rather than studying. He would later go on to state that he learned absolutely nothing from his time at college. What Nigo did gain from his college experience was meeting fellow fashion designer, Jun Takahashi, who was enrolled in the Bunka Fashion College at the same time. They bonded over their shared love of streetwear and would later collaborate on fashion brand NOWHERE. As Nigo gained notoriety in Tokyo, he eventually gained the attention of none other than his idol, Hiroshi Fujiwara. Fujiwara had a keen eye for emerging fashion trends in Tokyo, so he contacted Nigo and offered him a position as his personal assistant. From that point forward, they began working together.</p>
-                <h3>Nigo</h3>
-                <img src="../Bape-Project/youngnigo.jpg" alt="Nigo as a teenager alongside Hiroshi Fujiwara and Jun Takahashi">
+                <div class="container-history">
+                    <h3>Nigo</h3>
+                    <div class="img-gradient">
+                        <img src="../Bape-Project/youngnigo.jpg" alt="Nigo as a teenager alongside Hiroshi Fujiwara and Jun Takahashi">
+                    </div>
+                </div>
                 <p>As the story goes, Nigo was at a club one night when someone came up to him and told him that he looked exactly like Hiroshi Fujiwara. They called him, Hiroshi Fujiwara Nigo, which translates to Hiroshi Fujiwara number two. Nigo didn't mind being compared to his mentor, so he adopted the nickname and that is how Tomoaki Nagao became known as Nigo. Fujiwara and Nigo would work on many projects together including the aforementioned column in the Takarajima magazine, the same one where he found out about Fujiwara in the first place. This was a big milestone in Nigo’s career, as he began working on the very column he studied religiously as a teenager. In 1990, Nigo helped Fujiwara launch his streetwear brand, GOODENOUGH, which later became a staple in Japanese streetwear culture. This was a great experience for Nigo because he saw firsthand how to create a fashion label from the ground up. Three years later, in 1993, Nigo was ready to begin his own journey into the world of fashion.</p>
-                <h3>NOWHERE</h3>
-                <img src="../Bape-Project/nowhere.jpg" alt="the first NOWHERE store located in the Harajuku district of Tokyo">
+                <div class="container-history">
+                    <h3>NOWHERE</h3>
+                    <div class="img-gradient">
+                        <img src="../Bape-Project/nowhere.jpg" alt="the first NOWHERE store located in the Harajuku district of Tokyo">
+                    </div>
+                </div>
                 <p>On April 1st, 1993, Nigo and Jun Takahashi, his classmate from the Bunka Fashion College, opened a fashion boutique called NOWHERE. The name NOWHERE comes from the song, Nowhere Man, by the Beatles. NOWHERE featured clothes from GOODENOUGH as well as a curation of other popular streetwear and punk brands. The location of the store was in Ura-Harajuku, which at the time, was a collection of small boutiques in the backstreets of Tokyo’s Harajuku district. Nowadays, this district is flooded with well-known streetwear and luxury labels, but back then it was basically if you know you know status for local fans of streetwear. NOWHERE began to become an increasingly popular spot but a problem began to arise. The store was divided into two sections, one side for Jun Takahashi’s selection of grunge and punk-inspired clothing, and the other for Nigo’s assortment of streetwear. The problem was Jun Takahashi’s side of the store was much more popular with the launch of his own label UNDERCOVER. It soon became a best-seller which was good for the store but left Nigo thinking of ways to get the customers interested in streetwear. However, when Nigo couldn’t think of any ideas, the ideas came to him.</p>
-                <h3>A Bathing Ape</h3>
-                <img src="../Bape-Project/abathingape.jpg" alt="the original Bape head design made by SK8THING">
-                <p>Along with Jun Takahashi and Nigo, Hiroshi Fujiwara had a third prodigy under his wing named Shinichiro Nakamura, better known as SK8THING. SK8THING was one of the most sought-after graphic designers in Japanese streetwear at the time and would eventually become the co-founder and owner of the streetwear brand CAV EMPT. While working on Fujiwara’s team, SK8THING became aware of Nigo’s problem with selling clothes at NOWHERE. SK8THING had come up with an idea for Nigo after having a 5-hour marathon of the Planet of the Apes movies. He told Nigo to base his entire brand around the Planet of the Apes franchise. Nigo, who grew up watching Planet of the Apes, thought it would be a great idea to mix his love of fashion with his love of pop culture. The name, A Bathing Ape, is a reference to these movies, but also a reference to the Japanese expression, a bathing ape in lukewarm water. SK8THING made some of the first designs for the brand including the now iconic Bape head logo. Nigo printed the logo on some shirts and put them up in NOWHERE. For the first time, Bape was made available to consumers. </p>
-                <h3>Taking Over the World</h3>
-                <img src="../Bape-Project/nigo11.jpg" alt="Nigo sitting on a couch covered in Bape camo design">
+                <div class="container-history">
+                    <h3>A Bathing Ape</h3>
+                    <div class="img-gradient">
+                        <img src="../Bape-Project/abathingape.jpg" alt="the original Bape head design made by SK8THING">
+                    </div>
+                </div>
+                <p>Along with Jun Takahashi and Nigo, Hiroshi Fujiwara had a third prodigy under his wing named Shinichiro Nakamura, better known as SK8THING. SK8THING was one of the most sought-after graphic designers in Japanese streetwear at the time and would eventually become the co-founder and owner of the streetwear brand CAV EMPT. While working on Fujiwara’s team, SK8THING became aware of Nigo’s problem with selling clothes at NOWHERE. SK8THING had come up with an idea for Nigo after having a 5-hour marathon of the Planet of the Apes movies. He told Nigo to base his entire brand around the Planet of the Apes franchise. Nigo, who grew up watching Planet of the Apes, thought it would be a great idea to mix his love of fashion with his love of pop culture. The name, A Bathing Ape, is a reference to these movies, but also a reference to the Japanese expression, a bathing ape in lukewarm water. SK8THING made some of the first designs for the brand including the now iconic Bape head logo. Nigo printed the logo on some shirts and put them up in NOWHERE. For the first time, Bape was made available to consumers.</p>
+                <div class="container-history">
+                    <h3>Taking Over the World</h3>
+                    <div class="img-gradient">
+                        <img src="../Bape-Project/nigo11.jpg" alt="Nigo sitting on a couch covered in Bape camo design">
+                    </div>
+                </div>
                 <p>Nigo wanted to keep his brand exclusive, selling t-shirts only at his store, making only a limited amount, and charging a fairly high price. This gave the impression that Bape was a high-end brand. Soon, the iconic Bape head logo was seen all around Japan, causing people to flock to Nigo's store to purchase clothing. SK8THING also created the iconic camouflage pattern around this time which quickly became a fan favorite. Nigo wanted Bape to expand, but he didn't want to start mass-producing t-shirts. He began by selling Bape at a couple more local boutiques, which helped Bape gain a cult following in Japan. But Bape still wasn't popular overseas. Thanks to Nigo's music career as a DJ, he met English electronic musician, James Lavelle, who introduced him to New York graffiti artist, Stash. Stash owned a streetwear boutique in New York called Recon. After speaking with Stash, Nigo started selling his clothes overseas for the first time. Nigo began to gain popularity in New York and soon would begin to gain the attention of the New York Hip-Hop scene.</p>
-                <h3></h3>
             </div>
         </div>
     </main>

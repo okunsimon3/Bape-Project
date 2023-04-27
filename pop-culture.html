@@ -9,19 +9,212 @@
     <meta name="description" content="A fan website of the Japanese clothing brand Bape (A Bathing Ape)">
     <link rel="stylesheet" href="../Bape-Project/css/reset.css" type="text/css">
     <link rel="stylesheet" href="../Bape-Project/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../Bape-Project/mobile.css" media="(max-width: 820px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <script>
+      function openNav() {
+          document.querySelector('nav').classList.add('open')
+      }
+
+      function closeNav() {
+          document.querySelector('nav').classList.remove('open')
+      }
+  </script>
 </head>
 <body id="pop">
     <header class="top-panel-pop">
         <h1><a href="index.html">I &hearts; Bape</a></h1>
-        <div class="nav-bar">
+        <nav>
+            <img id="close-button" src="../Bape-Project/close.png" alt="close button" onclick="closeNav()"/>
             <ul>
                 <li><a href="history.html">History</a></li>
                 <li><a href="timeline.html">Timeline</a></li>
                 <li><a href="collaborations.html">Collaborations</a></li>
                 <li><a href="pop-culture.html">Pop Culture</a></li>
             </ul>
-        </div>
+        </nav>
+        <img id="open-button" src="../Bape-Project/hamburger-icon.png" alt="open button" onclick="openNav()"/>
     </header>
+    <main class="container">
+        <div class="grid">
+            <div class="grid-item-pop">
+                <h2>Pop-Culutre</h2>
+                <div class="pop-container">
+                    <div class="gallery-card w-2 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/chiefkeef.jpg" alt="Chief Keef wearing Bape">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Chief Keef</h3>
+                        </div> 
+                    </div>
+                    <div class="gallery-card w-3 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/kanye.jpg" alt="Kanye wearing Bape">
+                        </div>
+                        <div class="gallery-text">
+                            <h3>Kanye</h3>
+                        </div> 
+                    </div>
+                    <div class="gallery-card w-1 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/tecca.jpg" alt="Lil Tecca wearing Bape">
+                        </div>
+                        <div class="gallery-text">
+                            <h3>Lil Tecca</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-3 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/lilwayne.jpg" alt="Lil Wayne wearing Bape">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Lil Wayne</h3>
+                        </div>   
+                    </div>
+                    <div class="gallery-card w-3 h-2">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/pierre.jpg" alt="Pi'erre Bourne wearing Bape">
+                        </div>
+                        <div class="gallery-text">
+                            <h3>Pi'erre Bourne</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-3 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/lilpeep.png" alt="Lil Peep wearing red Bape Camo full zip hoodie">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Lil Peep</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-2 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/soulja.jpg" alt="Soulja Boy wearing Bape">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Soulja Boy</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-2">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/ian.jpg" alt="Ian Connor wearing Bape">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Ian Connor</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-2 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/rihanna.jpg" alt="Rihanna wearing green Bape camo jacket">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Rihanna</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card h-3 w-2">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/richthekid.jpg" alt="Rich the Kid wearing Bape">
+                        </div>
+                        <div class="gallery-text">
+                            <h3>Rich the Kid</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-2">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/tyler.jpg" alt="Tyler, the Creator modeling for Bape">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Tyler, the Creator</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-1">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/lilpump.jpg" alt="Lil pump wearing Bape">
+                        </div>
+                        <div class="gallery-text">
+                            <h3>Lil Pump</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/future.png" alt="Future wearing green Bape camo jacket">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Future</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-2">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/robin.jpg" alt="Robin Williams wearing green Bape camo button up">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Robin Williams</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-3 h-4">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/uzi.jpg" alt="Future wearing green Bape camo jacket">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Lil Uzi Vert</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/wiz.jpg" alt="Future wearing green Bape camo jacket">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Wiz Khalifa</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-2 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/rocky.jpg" alt="A$AP Rocky wearing red Bape camo hoodie">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>A$AP Rocky</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-4">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/ski-bape.jpg" alt="Ski Mask the Slump God wearing purple camo Bape and Undefeated collaboration jacket">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Ski Mask The Slump God</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-2 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/yachty.jpg" alt="Future wearing green Bape camo jacket">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Lil Yachty</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-1 h-3">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/keith.jpg" alt="Keith Ape wearing Bape t-shirt and a Bape beanie">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Keith Ape</h3>
+                        </div>
+                    </div>
+                    <div class="gallery-card w-2 h-2">
+                        <div class="gallery-image">
+                            <img src="../Bape-Project/popculture/juice.jpg" alt="Juice Wrld wearing Bape Hattori Kun camo zip hoodie">
+                        </div>    
+                        <div class="gallery-text">
+                            <h3>Juice WRLD</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
     <footer class="footer-pop">
         <h3>Copyright &#169; 2023 I &hearts; Bape. All Rights Reserved.</h3>
         <ul>

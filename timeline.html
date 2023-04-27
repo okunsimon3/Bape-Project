@@ -9,61 +9,90 @@
     <meta name="description" content="A fan website of the Japanese clothing brand Bape (A Bathing Ape)">
     <link rel="stylesheet" href="../Bape-Project/css/reset.css" type="text/css">
     <link rel="stylesheet" href="../Bape-Project/css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../Bape-Project/mobile.css" media="(max-width: 820px)"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap" rel="stylesheet">
+
+    <script>
+      function openNav() {
+          document.querySelector('nav').classList.add('open')
+      }
+
+      function closeNav() {
+          document.querySelector('nav').classList.remove('open')
+      }
+  </script>
 </head>
 <body id="timeline">
     <header class="top-panel-timeline">
         <h1><a href="index.html">I &hearts; Bape</a></h1>
-        <div class="nav-bar">
+        <nav>
+            <img id="close-button" src="../Bape-Project/close.png" alt="close button" onclick="closeNav()"/>
             <ul>
                 <li><a href="history.html">History</a></li>
                 <li><a href="timeline.html">Timeline</a></li>
                 <li><a href="collaborations.html">Collaborations</a></li>
                 <li><a href="pop-culture.html">Pop Culture</a></li>
             </ul>
-        </div>
+        </nav>
+        <img id="open-button" src="../Bape-Project/hamburger-icon.png" alt="open button" onclick="openNav()"/>
     </header>
     <main class="container">
         <div class="grid">
             <div class="grid-item-timeline">
                 <h2>Timeline</h2>
-                <div class="timeline">
-                    <div class="checkpoint">
-                        <div>
-                            <h3>December 23, 1970</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea officiis commodi vero nam ex! Atque cupiditate facere obcaecati accusamus.</p>
+                <ul>
+                    <li>
+                        <div class="timeline-content">
+                            <h4 class="date">September, 1993</h4>
+                            <h3>Bape launched first t-shirt collection</h3>
+                            <img src="../Bape-Project/first.jpg" alt="the first Bape head logo and camo designs from SK8THING">
+                            <p>After the establishment of the first NOWHERE store in Harajuku, Tokyo, Nigo was ready to launch his own clothing brand. With the help of SK8THING, the first camo pattern and Bape head logo were printed on t-shirts and sold at NOWHERE. For the first time ever, people could get their hands on A Bathing Ape.</p>
                         </div>
-                    </div>
-                    <div class="checkpoint">
-                        <div>
-                            <h3>December 23, 1970</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea officiis commodi vero nam ex! Atque cupiditate facere obcaecati accusamus.</p>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h4 class="date">1994</h4>
+                            <h3>The Notorious B.I.G</h3>
+                            <img src="../Bape-Project/biggie.jpg" alt="Biggie Smalls wearing vintage bape jacket">
+                            <p>This picture of Biggie Smalls was shot in New York by the famous photojournalist, Shawn Mortensen. During the shoot, Biggie liked Mortensen’s jacket (the Bape piece pictured) so much, he asked to wear it for a single shot. Of course, Poppa was a big fella and it wouldn’t fit, so he just draped it over his shoulder. Nigo offered to make Biggie some custom pieces that would fit his size, but by the time he would arrive in New York, Biggie would have already passed away.</p>
                         </div>
-                    </div>
-                    <div class="checkpoint">
-                        <div>
-                            <h3>December 23, 1970</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea officiis commodi vero nam ex! Atque cupiditate facere obcaecati accusamus.</p>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h4 class="date">December 14th, 1997</h4>
+                            <h3>World Wide Ape Head</h3>
+                            <img src="../Bape-Project/apehead.jpg" alt="promotional poster for a World Wide Ape Head show featuring a man smoking a cigarette in a planet of the apes mask">
+                            <p>Around the late 90's, Nigo began hosting music festivals around Tokyo called the World Wide Ape Head Shows, later changed to World Wide Bape Head Shows. These festivals featured many of Nigo's favorite musician and DJ friends. This turned Bape from just being a t-shirt brand into more of a lifestyle brand, with a heavy association to the world of music</p>
                         </div>
-                    </div>
-                    <div class="checkpoint">
-                        <div>
-                            <h3>December 23, 1970</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea officiis commodi vero nam ex! Atque cupiditate facere obcaecati accusamus.</p>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h4 class="date">2000</h4>
+                            <h3>Bapesta</h3>
+                            <img src="../Bape-Project/bapesta.jpg" alt="Nigo standing in front of dozens of pairs of Bapestas">
+                            <p>Nigo began producing shoes during the year 2000 under the brand Bapesta. The logo resembled a shooting star and replaced the nike swoosh on regular air force 1s. The Bapesta looks almost identical to the air force one except for this star logo. This caused some problems with Nike over copyright infringement, but no lawsuit has been filed against Bape.</p>
                         </div>
-                    </div>
-                    <div class="checkpoint">
-                        <div>
-                            <h3>December 23, 1970</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea officiis commodi vero nam ex! Atque cupiditate facere obcaecati accusamus.</p>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h4 class="date">2005</h4>
+                            <h3>Teriyaki Boyz</h3>
+                            <img src="../Bape-Project/teriyaki.jpg" alt="Teriyaki Boyz posing for an award">
+                            <p>Nigo started a rap group called Teriyaki Boyz in the mid 2000's with Ilmari, Ryo-Z, Verbal, and Wise. The group has gone on to collaborate with Kanye, Jay-Z, Pharrell, Busta Rhymes, and Big Sean. Their music was even featured on <i>The Fast and the Furious: Tokyo Drift</i> soundtrack.</p>
                         </div>
-                    </div>
-                    <div class="checkpoint">
-                        <div>
-                            <h3>December 23, 1970</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis ea officiis commodi vero nam ex! Atque cupiditate facere obcaecati accusamus.</p>
+                    </li>
+                    <li>
+                        <div class="timeline-content">
+                            <h4 class="date">January 2nd, 2007</h4>
+                            <h3>Kanye Collaboration</h3>
+                            <img src="../Bape-Project/kanyebapesta.jpg" alt="Kanye and Bapesta collaboration shoe">
+                            <p>Nigo and Kanye had worked together for some time before releasing this collaboration Bapesta. This particular shoe followed the release of Kanye's album, <i>College Dropout</i>. The iconic kanye bear head was featured on the Bapesta and it was sold very exclusively. These shoes nowadays can sell for over $10,000.</p>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
+            </div>
         </div>
     </main>
     <footer class="footer-timeline">
